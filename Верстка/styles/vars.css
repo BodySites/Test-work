@@ -1,0 +1,22 @@
+:root {
+	--font-sz-default: 14px;
+
+	--grayscale-0: #000000;
+	--grayscale-1: #181818;
+	--grayscale-2: #444444;
+	--grayscale-3: #b9b9b9;
+	--grayscale-4: #cfcfcf;
+	--grayscale-5: #e4e4e4;
+	--grayscale-6: #f5f5f5;
+	--grayscale-7: #ffffff;
+	--purple-0: #7b31d4;
+	--purple-1: #954ced;
+	--purple-2: #a64ced;
+	--purple-3: #ba8bf3;
+	--purple-4: rgba(149, 76, 237, 0.2);
+	--green: #2fdbbc;
+	--orange-0: #ff6c2d;
+	--orange-1: #ffaa4c;
+	--red: #ec1211;
+	--swamp: #c1db2f;
+}

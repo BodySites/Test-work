@@ -1,0 +1,73 @@
+.wrapper {
+	padding: 40px;
+	min-height: 100vh;
+	max-width: 100vw;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+.slider-block {
+	width: 100%;
+	max-width: 1000px;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.slider {
+	flex: 0 0 500px;
+	position: relative;
+	overflow: hidden;
+}
+.slides {
+	height: 100%;
+	min-width: 100%;
+	display: flex;
+	position: relative;
+}
+.slides > div {
+	flex: 0 0 100%;
+	height: 100%;
+}
+.slides img {
+	height: 100%;
+	width: 100%;
+}
+.left {
+	display: inline-block;
+	position: absolute;
+	left: 30px;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+.right {
+	display: inline-block;
+	position: absolute;
+	right: 30px;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.icons-slider {
+	display: inline-flex;
+	justify-content: space-between;
+	margin-left: 50%;
+	transform: translate(-50%, 0);
+	gap: 12px;
+}
+.icons-slider a {
+	width: 12px;
+	height: 12px;
+	opacity: 0.5;
+	border: 1px solid #111111;
+	border-radius: 50%;
+}
+.icons-slider a.selected,
+.icons-slider a:hover {
+	opacity: 1;
+	border: 0;
+	background: #111111;
+}
